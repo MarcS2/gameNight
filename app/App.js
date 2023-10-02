@@ -1,6 +1,6 @@
 import { AppState } from './AppState.js';
 import { router } from './router.js';
-
+import { PlayersController } from "./controllers/PlayersController.js";
 class App {
 
   constructor() {
