@@ -1,4 +1,5 @@
 import { AppState } from "../AppState.js";
+import { playersService } from "../services/PlayersService.js";
 import { setHTML } from "../utils/Writer.js";
 
 
@@ -9,6 +10,7 @@ export class PlayersController {
   }
   scorePoint(playerName) {
     console.log(playerName);
+    playersService.scorePoint(playerName)
   }
 }
 

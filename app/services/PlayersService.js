@@ -1,5 +1,4 @@
 import { AppState } from "../AppState.js";
-import { PlayersController } from "../controllers/PlayersController.js";
 
 class PlayersService {
   scorePoint(playerName) {
@@ -9,3 +8,5 @@ class PlayersService {
     console.log('in service', playerName);
   }
 }
+
+export const playersService = new PlayersService
